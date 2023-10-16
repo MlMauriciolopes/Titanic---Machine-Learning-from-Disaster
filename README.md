@@ -65,6 +65,29 @@ Também incluímos género_submission.csv, um conjunto de previsões que assumem
 - Analisando a coluna ‘Embarcados’, a maior parte das pessoas que embarcaram em ‘S’ não sobreviveram, sendo que apenas 33,69% delas sobreviveram.
 - Na coluna ‘Embarcados’ há apenas dois valores faltantes, e estes dois passageiros são da mesma cabine, B28.
 
+## Variáveis categóricas
+<table>
+  <tr>
+    <td><img src="img/01survived.png" alt="Imagem 1" width="300"></td>
+    <td><img src="img/03pclass.png" alt="Imagem 2" width="300"></td>
+    <td><img src="img/04sex.png" alt="Imagem 2" width="300"></td>
+    <td><img src="img/06sibsp.png" alt="Imagem 2" width="300"></td>
+  </tr>
+  <tr>
+    <td><img src="img/07parch.png" alt="Imagem 1" width="300"></td>
+    <td><img src="img/09embarked.png" alt="Imagem 1" width="300"></td>
+    <td><img src="img/10title.png" alt="Imagem 2" width="300"></td>
+  </tr>
+</table>
+
+## Variáveis numéricas
+<table>
+  <tr>
+    <td><img src="img/05age.png" alt="Imagem 2" width="300"></td>
+    <td><img src="img/08fare.png" alt="Imagem 2" width="300"></td>
+  </tr>
+</table>
+
 ## Solução
 
 - Uma das soluções escolhidas para este desafio foi pré-processar os dados em conjunto, criando uma coluna de teste separada, 'PassengerId', e fundindo os conjuntos de dados.
